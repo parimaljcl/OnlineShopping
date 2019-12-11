@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Online Shopping</string>
-
     <string name="action_settings">Settings</string>
     <string name="loading">Please wait Loading…</string>
     <string name="new_product">New</string>
 
+    <string name="category">Category</string>
+    <string name="product">Product</string>
+    <string name="purchase">Purchase</string>
 </resources>
