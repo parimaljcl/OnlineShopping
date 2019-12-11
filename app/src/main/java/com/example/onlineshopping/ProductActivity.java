@@ -8,13 +8,39 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.example.onlineshopping.models.Product;
 
 public class ProductActivity extends AppCompatActivity {
+    private EditText codeET;
+    private EditText nameET;
+    private EditText categoryET;
+    private Button saveBTN;
+    private Product product;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_product );
+
+        codeET=findViewById( R.id.code );
+        nameET=findViewById( R.id.name );
+        categoryET=findViewById( R.id.category );
+        saveBTN=findViewById( R.id.savebtn );
+
+        saveBTN.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                product=new Product();
+                product.setName( nameET.getText().toString() );
+                product.setCode( codeET.getText().toString() );
+            }
+        } );
     }
 
 
