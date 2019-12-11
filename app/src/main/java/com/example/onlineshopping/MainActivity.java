@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent purchase=new Intent(MainActivity.this,purchaseActivity.class);
                 startActivity(purchase);
                 return true;
-
                 default: return super.onOptionsItemSelected(item);
         }
 

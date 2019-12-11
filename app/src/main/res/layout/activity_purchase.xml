@@ -24,8 +24,7 @@
         android:textColor="#ffffff"
         android:fontFamily="cursive"
         android:gravity="center"
-        android:textAlignment="center"
-        />
+        android:textAlignment="center"/>
 
     <EditText
         android:id="@+id/ItemNameET"
@@ -36,8 +35,7 @@
         android:textSize="20dp"
         android:layout_margin="20dp"
         android:layout_gravity="center"
-        android:padding="10dp"
-        />
+        android:padding="10dp"/>
 
 
     <EditText
@@ -49,8 +47,7 @@
         android:textSize="20dp"
         android:layout_margin="20dp"
         android:layout_gravity="center"
-        android:padding="10dp"
-        />
+        android:padding="10dp"/>
 
     <EditText
         android:id="@+id/QuantityET"
@@ -61,8 +58,7 @@
         android:textSize="20dp"
         android:layout_margin="20dp"
         android:layout_gravity="center"
-        android:padding="10dp"
-        />
+        android:padding="10dp"/>
 
     <Button
         android:id="@+id/PurchesSaveBTN"
@@ -73,10 +69,7 @@
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:background="#707070"
-        android:layout_marginLeft="135dp"
-        />
-
-
+        android:layout_marginLeft="135dp"/>
 
 </LinearLayout>
 
