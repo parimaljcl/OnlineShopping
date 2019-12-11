@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item android:id="@+id/logout_id" android:icon="@drawable/ic_power_settings_new_black_24dp" app:showAsAction="always" android:title="Logout">Logout</item>
     <item android:id="@+id/category_id" android:title="@string/category"></item>
     <item android:id="@+id/product_id" android:title="@string/product"></item>
     <item android:id="@+id/purchase_id" android:title="@string/purchase"></item>
