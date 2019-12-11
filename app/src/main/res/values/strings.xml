@@ -7,4 +7,11 @@
     <string name="category">Category</string>
     <string name="product">Product</string>
     <string name="purchase">Purchase</string>
+
+    <string-array name="category_array">
+        <item>category</item>
+
+
+
+    </string-array>
 </resources>

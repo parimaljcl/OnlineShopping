@@ -9,6 +9,7 @@ public class Product {
     private boolean isLoading = false;
     private boolean isNew = false;
 
+
     public int getImageResourceId() {
         return imageResourceId;
     }
