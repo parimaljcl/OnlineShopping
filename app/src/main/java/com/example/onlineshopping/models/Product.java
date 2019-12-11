@@ -4,6 +4,8 @@ public class Product {
     private int imageResourceId;
     private String code;
     private String name;
+    private String category;
+    private String categoryId;
     private boolean isLoading = false;
     private boolean isNew = false;
 
